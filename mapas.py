@@ -1,6 +1,5 @@
 import folium
 import geemap.foliumap as geemap
-from folium.plugins import Geocoder
 from folium.plugins import FloatImage
 import branca
 import dados as d
