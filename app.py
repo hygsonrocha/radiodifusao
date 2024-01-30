@@ -9,7 +9,7 @@ import geopandas as gpd
 from geopy.distance import geodesic
 from shapely.geometry import Point
 import numpy as np
-import geemap.foliumap as geemap
+import folium
 
 import psycopg2
 from sqlalchemy import create_engine
@@ -330,11 +330,11 @@ else:
     # MAPA
     # ---------------------------------------------------------------------
 
-    mapa = geemap.Map(location=[LATITUDE_PROPOSTA, LONGITUDE_PROPOSTA],
+    mapa = folium.Map(location=[LATITUDE_PROPOSTA, LONGITUDE_PROPOSTA],
                     zoom_start=9.5,
                     tiles="cartodb positron",
-                    height="700",
-                    width="1200")
+                    height=700,
+                    width=1200)
 
     # Título
     # ------
