@@ -1,4 +1,5 @@
 matplotlib
+streamlit-folium
 folium
 leafmap
 mapclassify
