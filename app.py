@@ -10,6 +10,7 @@ from geopy.distance import geodesic
 from shapely.geometry import Point
 import numpy as np
 import folium
+import leafmap.foliumap as leafmap
 
 import psycopg2
 from sqlalchemy import create_engine
@@ -330,7 +331,7 @@ else:
     # MAPA
     # ---------------------------------------------------------------------
 
-    mapa = folium.Map(location=[LATITUDE_PROPOSTA, LONGITUDE_PROPOSTA],
+    mapa = leafmap.Map(location=[LATITUDE_PROPOSTA, LONGITUDE_PROPOSTA],
                     zoom_start=9.5,
                     tiles="cartodb positron",
                     height=700,
