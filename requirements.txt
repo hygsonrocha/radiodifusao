@@ -6,3 +6,4 @@ numpy
 folium
 geemap
 pandas
+psycopg2
