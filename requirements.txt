@@ -1,5 +1,6 @@
 matplotlib
 folium
+leafmap
 mapclassify
 geopandas
 geopy
