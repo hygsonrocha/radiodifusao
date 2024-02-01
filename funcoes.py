@@ -280,10 +280,18 @@ def valor_referencia(uf, enquadramento, cd_mun):
     if enquadramento == 'B':
         if uf == 'SC':
             return ['4205407', 'Florianópolis', 363499.72]
+        elif uf == 'AC':
+            return ['1200401', 'Rio Branco', 32586.82]
+        elif uf == 'AL':
+            return ['2704302', 'Maceió', 144040.28]
+        elif uf == 'AP':
+            return ['1600303', 'Macapá', 60014.83]
         elif uf == 'BA':
             return ['2927408', 'Salvador', 169291.50]
         elif uf == 'AM':
             return ['1302603', 'Manaus', 78099.69]
+        elif uf == 'MA':
+            return ['2111300', 'São Luís', 144005.30]
         elif uf == 'PA':
             return ['1501402', 'Belém', 85097.28]
         elif uf == 'SP':
@@ -307,6 +315,8 @@ def valor_referencia(uf, enquadramento, cd_mun):
             return ['3106200', 'Belo Horizonte', 53718.66]
         elif uf == 'PB':
             return ['2507507', 'João Pessoa', 144582.39]
+        elif uf == 'MT':
+            return ['5103403', 'Cuiabá', 164843.20]
         elif uf == 'MS':
             return ['5002704', 'Campo Grande', 215788.29]
         elif uf == 'DF':
@@ -315,24 +325,38 @@ def valor_referencia(uf, enquadramento, cd_mun):
             return ['1100205', 'Porto Velho', 45590.69]
         elif uf == 'RJ':
             return ['3304557', 'Rio de Janeiro', 701663.27]
+        elif uf == 'PE':
+            return ['2611606', 'Recife', 157833.60]
         elif uf == 'PR':
             return ['4106902', 'Curitiba', 469494.06]
-        elif uf == 'AL':
-            return ['2704302', 'Maceió', 144040.28]
         elif uf == 'PI':
             return ['2211001', 'Teresina', 144681.50]
+        elif uf == 'RN':
+            return ['2408102', 'Natal', 145172.62]
+        elif uf == 'RR':
+            return ['1400100', 'Boa Vista', 27459.32]
         elif uf == 'RS':
             return ['4314902', 'Porto Alegre', 425475.87]
         elif uf == 'ES':
             return ['3205200', 'Vila Velha', 69587.43]
+        elif uf == 'TO':
+            return ['1721000', 'Palmas', 15473.83]
 
     if enquadramento == 'C':
         if uf == 'SC':
             return ['4205407', 'Florianópolis', 852817.55]
+        elif uf == 'AC':
+            return ['1200401', 'Rio Branco', 77202.31]
+        elif uf == 'AL':
+            return ['2704302', 'Maceió', 337505.73]
+        elif uf == 'AP':
+            return ['1600303', 'Macapá', 111663.65]
         elif uf == 'BA':
             return ['2927408', 'Salvador', 397584.59]
         elif uf == 'AM':
             return ['1302603', 'Manaus', 183187.51]
+        elif uf == 'MA':
+            return ['2111300', 'São Luís', 338625.89]
         elif uf == 'PA':
             return ['1501402', 'Belém', 199600.76]        
         elif uf == 'SP':
@@ -356,6 +380,8 @@ def valor_referencia(uf, enquadramento, cd_mun):
             return ['3106200', 'Belo Horizonte', 125672.29]
         elif uf == 'PB':
             return ['2507507', 'João Pessoa', 338855.67]
+        elif uf == 'MT':
+            return ['5103403', 'Cuiabá', 387763.39]
         elif uf == 'MS':
             return ['5002704', 'Campo Grande', 505001.04]
         elif uf == 'DF':
@@ -364,15 +390,21 @@ def valor_referencia(uf, enquadramento, cd_mun):
             return ['1100205', 'Porto Velho', 105637.44]
         elif uf == 'RJ':
             return ['3304557', 'Rio de Janeiro', 1629200.59]
+        elif uf == 'PE':
+            return ['2611606', 'Recife', 369776.49]
         elif uf == 'PR':
             return ['4106902', 'Curitiba', 1098420.32]
-        elif uf == 'AL':
-            return ['2704302', 'Maceió', 337505.73]
         elif uf == 'PI':
             return ['2211001', 'Teresina', 339511.65]
+        elif uf == 'RN':
+            return ['2408102', 'Natal', 340511.07]
+        elif uf == 'RR':
+            return ['1400100', 'Boa Vista', 64624.06]
         elif uf == 'RS':
             return ['4314902', 'Porto Alegre', 995714.32]
         elif uf == 'ES':
             return ['3205200', 'Vila Velha', 79940.86]
+        elif uf == 'TO':
+            return ['1721000', 'Palmas', 36039.46]
         
 # -----------------------------------------------------------------------------------------------------------------------------------------
